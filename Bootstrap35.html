@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap35</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="shortcut icon" href="picture/bootstrap-logo-white.svg" type="image/x-icon">
+</head>
+<body>
+    <form class="was-validated">
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Textarea</label>
+          <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+          <div class="invalid-feedback">
+            Please enter a message in the textarea.
+          </div>
+        </div>
+      
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+          <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
+          <div class="invalid-feedback">Example invalid feedback text</div>
+        </div>
+      
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+        </div>
+        <div class="form-check mb-3">
+          <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+          <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+          <div class="invalid-feedback">More example invalid feedback text</div>
+        </div>
+      
+        <div class="mb-3">
+          <select class="form-select" required aria-label="select example">
+            <option value="">Open this select menu</option>
+            <option value="1">ONE</option>
+            <option value="2">TWO</option>
+            <option value="3">THREE</option>
+            <option value="4">FOUR</option>
+            <option value="5">FIVE</option>
+            <option value="6">SIX</option>
+            <option value="7">SEVEN</option>
+            <option value="8">EIGHT</option>
+            <option value="9">NINE</option>
+            <option value="10">TEN</option>
+          </select>
+          <div class="invalid-feedback">Example invalid select feedback</div>
+        </div>
+      
+        <div class="mb-3">
+          <input type="file" class="form-control" aria-label="file example" required>
+          <div class="invalid-feedback">Example invalid form file feedback</div>
+        </div>
+      
+        <div class="mb-3">
+          <button class="btn btn-primary" type="submit" >Submit form</button>
+        </div>
+      </form>
+      <script src="bootstrap.min.js"></script>
+</body>
+</html>
